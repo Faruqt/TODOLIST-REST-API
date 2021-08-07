@@ -17,8 +17,7 @@ class apiOverview(APIView):
 	def get(self, request):
           api_urls = {
                'List Categories': 'api/list_category/',
-               # 'List and Add Tasks': 'api/list_create_todo/',
-               'List and Add Tasks': 'http://127.0.0.1:8000/api/list_create_todo/',
+               'List and Add Tasks': 'api/list_create_todo/',
                'Delete Task': 'api/delete_todo/<int:id>/',
                }
                
